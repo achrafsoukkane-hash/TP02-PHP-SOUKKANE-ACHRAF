@@ -52,3 +52,20 @@ La conversion de `15.8` en entier donne `15` : la partie décimale est supprimé
 
 En booléen, `0`, `"0"` et un tableau vide donnent `false`.
 La chaîne `"PHP"` donne `true`.
+
+### Exercice 5 — Conditions et mentions
+
+La note doit être comprise entre 0 et 20.
+
+| Moyenne | Résultat |
+|---|---|
+| -1 | Note invalide |
+| 9 | Non validé |
+| 10 | Passable |
+| 12 | Assez bien |
+| 14 | Bien |
+| 16 | Très bien |
+| 21 | Note invalide |
+
+Les seuils 10, 12, 14 et 16 appartiennent à la mention supérieure.
+
