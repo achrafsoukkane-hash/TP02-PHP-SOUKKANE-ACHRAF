@@ -32,4 +32,13 @@ Arrêter le serveur avec Ctrl + C.
 
 ## Réponses et vérifications
 
-Les réponses seront ajoutées après chaque exercice.
+### Exercice 2 — Variables
+
+PHP distingue les majuscules et les minuscules :
+`$note` et `$Note` sont deux variables différentes.
+
+Noms valides : `$a`, `$_a`, `$a_a`, `$AAA`, `$a1`.
+Noms invalides : `$a!` et `$1a`.
+
+Un nom de variable commence par une lettre ou `_`,
+puis peut contenir des lettres, des chiffres et `_`.
