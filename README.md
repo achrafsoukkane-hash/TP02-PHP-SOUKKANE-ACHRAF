@@ -42,3 +42,13 @@ Noms invalides : `$a!` et `$1a`.
 
 Un nom de variable commence par une lettre ou `_`,
 puis peut contenir des lettres, des chiffres et `_`.
+
+### Exercice 4 — Types et conversions
+
+`echo true` affiche `1`, tandis que `echo false` n'affiche rien.
+`var_dump()` affiche le type et la valeur : `bool(true)` ou `bool(false)`.
+
+La conversion de `15.8` en entier donne `15` : la partie décimale est supprimée.
+
+En booléen, `0`, `"0"` et un tableau vide donnent `false`.
+La chaîne `"PHP"` donne `true`.
