@@ -69,3 +69,12 @@ La note doit être comprise entre 0 et 20.
 
 Les seuils 10, 12, 14 et 16 appartiennent à la mention supérieure.
 
+### Exercice 10 — GET et POST
+
+GET transmet les données dans l'URL : elles sont visibles après `?`.
+POST transmet les données dans le corps de la requête HTTP :
+elles n'apparaissent pas dans l'URL.
+
+`isset()` vérifie la présence des champs.
+`trim()` permet de détecter les champs vides ou contenant uniquement des espaces.
+`htmlspecialchars()` empêche les valeurs saisies d'être interprétées comme du HTML.
